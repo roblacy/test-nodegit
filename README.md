@@ -1,2 +1,1 @@
-# test-nodegit
-Testing using nodegit to connect to a repository
+here is a new line
