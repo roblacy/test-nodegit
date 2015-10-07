@@ -7,7 +7,7 @@ cache:
 before_install:
 - npm install -g npm
 install:
-- npm install
+- BUILD_ONLY=true npm install
 script:
   npm test
 
