@@ -4,10 +4,14 @@ sudo: false
 cache:
   directories:
     - node_modules
+addons:
+  apt:
+    packages:
+      - libc6-dev
 before_install:
-- npm install -g npm
+- npm install -g npm@2
 install:
-- BUILD_ONLY=true npm install
+- npm install
 script:
   npm test
 
